@@ -1,0 +1,78 @@
+[33mcommit 233adf3c0e1d12c830837e74791bac3fae38c935[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m
+Merge: cdb313b 0dcaa0a
+Author: Abdou Yakubu <yaabdullahi53@gmail.com>
+Date:   Thu Mar 6 22:34:10 2025 +0300
+
+    Merge branch 'feature-devops-home-page'
+
+[33mcommit cdb313b8c0fe3fa146c63cae50738dae7f75d689[m
+Author: Abdou Yakubu <yaabdullahi53@gmail.com>
+Date:   Thu Mar 6 22:33:00 2025 +0300
+
+    "updated welcome page"
+
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.dll b/bin/Debug/net9.0/myWebApp.dll[m
+[1mindex 63b6619..bedccc1 100644[m
+Binary files a/bin/Debug/net9.0/myWebApp.dll and b/bin/Debug/net9.0/myWebApp.dll differ
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.exe b/bin/Debug/net9.0/myWebApp.exe[m
+[1mindex 5c6b8c9..dcec24f 100644[m
+Binary files a/bin/Debug/net9.0/myWebApp.exe and b/bin/Debug/net9.0/myWebApp.exe differ
+
+[33mcommit 0dcaa0ac94b78860aba7abae668549a8048db05f[m
+Author: Abdou Yakubu <yaabdullahi53@gmail.com>
+Date:   Thu Mar 6 22:30:23 2025 +0300
+
+    updated welcome page
+
+[1mdiff --git a/Views/Home/Index.cshtml b/Views/Home/Index.cshtml[m
+[1mindex c23bf8b..bcfd79a 100644[m
+[1m--- a/Views/Home/Index.cshtml[m
+[1m+++ b/Views/Home/Index.cshtml[m
+[36m@@ -4,5 +4,5 @@[m
+ [m
+ <div class="text-center">[m
+     <h1 class="display-4">Welcome</h1>[m
+[31m-    <p>Learn about <a href="https://azure.microsoft.com/services/devops/">Azure DevOps</a>.</p>[m
+[31m-</div>[m
+\ No newline at end of file[m
+[32m+[m[32m    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>[m
+[32m+[m[32m</div>[m
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.pdb b/bin/Debug/net9.0/myWebApp.pdb[m
+[1mdeleted file mode 100644[m
+[1mindex 989db97..0000000[m
+Binary files a/bin/Debug/net9.0/myWebApp.pdb and /dev/null differ
+
+[33mcommit fb2fbe0bba072f3204bd2a985c962320b18368bf[m
+Author: Abdou Yakubu <yaabdullahi53@gmail.com>
+Date:   Thu Mar 6 22:25:42 2025 +0300
+
+    updated welcome page
+
+[1mdiff --git a/Views/Home/Index.cshtml b/Views/Home/Index.cshtml[m
+[1mindex bcfd79a..c23bf8b 100644[m
+[1m--- a/Views/Home/Index.cshtml[m
+[1m+++ b/Views/Home/Index.cshtml[m
+[36m@@ -4,5 +4,5 @@[m
+ [m
+ <div class="text-center">[m
+     <h1 class="display-4">Welcome</h1>[m
+[31m-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>[m
+[31m-</div>[m
+[32m+[m[32m    <p>Learn about <a href="https://azure.microsoft.com/services/devops/">Azure DevOps</a>.</p>[m
+[32m+[m[32m</div>[m
+\ No newline at end of file[m
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.dll b/bin/Debug/net9.0/myWebApp.dll[m
+[1mindex 63b6619..bedccc1 100644[m
+Binary files a/bin/Debug/net9.0/myWebApp.dll and b/bin/Debug/net9.0/myWebApp.dll differ
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.exe b/bin/Debug/net9.0/myWebApp.exe[m
+[1mindex 5c6b8c9..dcec24f 100644[m
+Binary files a/bin/Debug/net9.0/myWebApp.exe and b/bin/Debug/net9.0/myWebApp.exe differ
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.pdb b/bin/Debug/net9.0/myWebApp.pdb[m
+[1mindex acafbeb..989db97 100644[m
+Binary files a/bin/Debug/net9.0/myWebApp.pdb and b/bin/Debug/net9.0/myWebApp.pdb differ
+[1mdiff --git a/bin/Debug/net9.0/myWebApp.staticwebassets.runtime.json b/bin/Debug/net9.0/myWebApp.staticwebassets.runtime.json[m
+[1mindex 1681b0e..dae9d7b 100644[m
+[1m--- a/bin/Debug/net9.0/myWebApp.staticwebassets.runtime.json[m
+[1m+++ b/bin/Debug/net9.0/myWebApp.staticwebassets.runtime.json[m
+[36m@@ -1 +1 @@[m
+[31m-{"ContentRoots":["C:\\Users\\pc\\myWebApp\\wwwroot\\","C:\\Users\\pc\\myWebApp\\obj\\Debug\\net9.0\\scopedcss\\bundle\\","C:\\Users\\pc\\myWebApp\\obj\\Debug\\net9.0\\compressed\\"],"Root":{"Children":{"css":{"Children":{"site.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"css/site.css"},"Patterns":null},"site.css.gz":{"Children":null,"Asset":{"ContentRootIndex":2,"SubPath":"cw9qsouzs8-b9sayid5wm.gz"},"Patterns":null}},"Asset":null,"Patterns":null},"favicon.ico":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"favicon.ico"},"Patterns":null},"js":{"Children":{"site.js":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"js/site.js"},"Patterns":null},"site.js.gz":{"Children":null,"Asset":{"ContentRootIndex":2,"SubPath":"9p2ssffkxp-xtxxf3hu2r.gz"},"Patterns":null}},"Asset":null,"Patterns":null},"lib":{"Children":{"bootstrap":{"Children":{"dist":{"Children":{"css":{"Children":{"bootstrap-grid.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.css"},"Patterns":null},"bootstrap-grid.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.css.map"},"Patterns":null},"bootstrap-grid.min.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.min.css"},"Patterns":null},"bootstrap-grid.min.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.min.css.map"},"Patterns":null},"bootstrap-grid.rtl.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.rtl.css"},"Patterns":null},"bootstrap-grid.rtl.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map"},"Patterns":null},"bootstrap-grid.rtl.min.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css"},"Patterns":null},"bootstrap-grid.rtl.min.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map"},"Patterns":null},"bootstrap-reboot.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.css"},"Patterns":null},"bootstrap-reboot.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.css.map"},"Patterns":null},"bootstrap-reboot.min.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.min.css"},"Patterns":null},"bootstrap-reboot.min.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"},"Patterns":null},"bootstrap-reboot.rtl.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.rtl.css"},"Patterns":null},"bootstrap-reboot.rtl.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"},"Patterns":null},"bootstrap-reboot.rtl.min.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css"},"Patterns":null},"bootstrap-reboot.rtl.min.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map"},"Patterns":null},"bootstrap-utilities.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.css"},"Patterns":null},"bootstrap-utilities.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.css.map"},"Patterns":null},"bootstrap-utilities.min.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.min.css"},"Patterns":null},"bootstrap-utilities.min.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.min.css.map"},"Patterns":null},"bootstrap-utilities.rtl.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.rtl.css"},"Patterns":null},"bootstrap-utilities.rtl.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map"},"Patterns":null},"bootstrap-utilities.rtl.min.css":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css"},"Patterns":null},"bootstrap-utilities.rtl.min.css.map":{"Children":null,"Asset":{"ContentRootIndex":0,"SubPath":"lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map
